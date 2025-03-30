@@ -3,40 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Lokesh K - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <a href="#" class="logo">Lokesh</a>
-        <nav>
-            <a href="#" class="active">Home</a>
-            <a href="#">Services</a>
-            <a href="#">Skills</a>
-            <a href="#">Education</a>
-            <a href="#">Contact</a>
-            
-        </nav>
-    </header>
-    <section class="home">
-        <div class="home-img">
-            <img src="ls photo.jpg" alt="profile">
+        <div class="container">
+            <h1 style="color: azure;">Lokesh K</h1>
+            <p>Software Developer</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="home-content">
-            <h1>Hi, It's <span>Lokesh</span></h1>
-            <h3 class="typing-text">I'm a <span>Software Developer</span></h3>
-            <p>Passionate and self-motivated software developer with extensive hands-on experience
-                in Android development using Java, .</p>
-            <div class="social-icons">
-                <a href="https://in.linkedin.com/in/lokesh-k- 4886972a4"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/LSGAMING281004"><i class="fab fa-github"></i></a>
-                <a href="https://x.com/LSGaming342?t=gOtG0d0Eo0LYBo63zK3ZWw&s=03"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.instagram.com/professional_ls?utm_source=qr&igsh=anY2aXd4MnJqZWp3"><i class="fab fa-instagram"></i></a>
-            </div>
-            <a href="#" class="btn">Hire me</a>
+    </header>
+    
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Passionate and self-motivated software developer with hands-on experience in Android development using Java. Skilled in working with Android Studio, Firebase and FireBase. Currently expanding expertise in Flutter.</p>
         </div>
     </section>
     
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <span>Java</span>
+                <span>C++</span>
+                <span>Dart (Basics)</span>
+                <span>Android Studio</span>
+                <span>Firebase</span>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <h3>Jarvis AI</h3>
+                <p>Developed an Android application using Java.</p>
+                <a href="https://github.com/LSGAMING281004" target="_blank">View on GitHub</a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:lsgaming342@gmail.com">lsgaming342@gmail.com</a></p>
+            <p>Phone: +91 7200750342</p>
+            <p>LinkedIn: <a href="https://in.linkedin.com/in/lokesh-k-4886972a4" target="_blank">lokesh-k-4886972a4</a></p>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Lokesh K. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
